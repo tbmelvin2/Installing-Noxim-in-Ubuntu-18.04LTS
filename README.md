@@ -220,12 +220,12 @@ In the bin directory edit the file Makefile to modify "SYSTEMC" and "YAML"
 environment variables according to your installation paths. Please, note that the
 values already set in the Makefile should be fine if you are using Ubuntu  
 
-The following worked for me because these are my installation paths for YAML and SYSTEMC
------------------------------------
-##### LIBRARIES CONFIGURATION #####
+- The following worked for me because these are my installation paths for YAML and SYSTEMC
+------------------------------------
+- ##### LIBRARIES CONFIGURATION #####
 
-SYSTEMC := /usr/local/systemc-2.3.1
-YAML    := libs/yaml-cpp
+1. SYSTEMC := /usr/local/systemc-2.3.1
+2. YAML    := libs/yaml-cpp
 
 -----------------------------------
 
